@@ -22,7 +22,6 @@ shiny-template/
 ├─ shiny/                 # Shiny application
 │  ├─ app.R
 │  ├─ global.R
-│  ├─ modules/
 │  └─ www/                # Static assets (CSS, JS, images)
 └─ .github/workflows/     # Optional CI (linting, checks)
 ```
