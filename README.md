@@ -11,7 +11,6 @@ It separates scripts, raw data, cleaned data, and the Shiny app itself for clari
 shiny-template/
 ├─ README.md              # Project documentation
 ├─ .gitignore             # Files ignored by Git
-├─ renv.lock              # Dependency lock file for reproducibility
 ├─ scripts/               # Data pipeline scripts
 │  ├─ 01_download.R
 │  ├─ 02_clean.R
