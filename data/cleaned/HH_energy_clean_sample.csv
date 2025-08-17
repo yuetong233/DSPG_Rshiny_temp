@@ -1,0 +1,6 @@
+respondent_id,age,annual_income,energy_spending,state,date,income_category,temp_f
+1,34,45000.0,1600,VA,2025-05-02,middle,72.0
+2,51,,2200,VA,2025-05-02,unknown,70.5
+3,29,32000.0,1400,MD,2025-05-02,low,68.0
+4,46,81000.0,3100,NC,2025-05-02,high,73.2
+5,61,56000.0,1900,NC,2025-05-02,middle,71.0

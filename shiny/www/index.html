@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Household Energy App</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #0066cc;
+    }
+    .content {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      max-width: 800px;
+    }
+  </style>
+</head>
+<body>
+  <div class="content">
+    <h1>Welcome to the Household Energy App</h1>
+    <p>
+      This application demonstrates how raw household energy survey data is downloaded,
+      cleaned, and analyzed. The interactive maps and charts allow you to explore
+      household energy burdens and climate exposure across regions.
+    </p>
+    <h2>Data Pipeline</h2>
+    <ol>
+      <li><strong>01_download.R</strong> – collects raw survey and climate data</li>
+      <li><strong>02_clean.R</strong> – prepares tidy, standardized datasets</li>
+      <li><strong>03_analysis.R</strong> – generates analysis outputs</li>
+      <li><strong>app.R</strong> – runs the interactive Shiny application</li>
+    </ol>
+    <p>
+      Place this file in the <code>www/</code> folder, and you can link to it in your Shiny app:
+      <br><code>tags$iframe(src = "index.html", width = "100%", height = "600px")</code>
+    </p>
+  </div>
+</body>
+</html>
